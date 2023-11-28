@@ -109,23 +109,23 @@ class ProfileCard extends HTMLElement {
             
             <div class="social-icons">
                 <div class="icon">
-                    <a class="hoverable" href="https://github.com/curais">
+                    <a class="hoverable" href=${this.getAttribute("github")}>
                         <i class="fa-brands fa-github fa-2xl clickable"></i>
                     </a>
-                    <a class="text-icon" href="https://github.com/curais">Github</a>
+                    <a class="text-icon" href=${this.getAttribute("github")}>Github</a>
                 </div>
                     
                 <div class="icon">
-                    <a class="hoverable" href="https://www.linkedin.com/in/curais/">
+                    <a class="hoverable" href=${this.getAttribute("linkedin")}>
                         <i class="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
-                     <a class="text-icon" href="https://github.com/curais">Linkedin</a>
+                     <a class="text-icon" href=${this.getAttribute("linkedin")}>Linkedin</a>
                 </div>
                 <div class="icon">
-                    <a class="hoverable" href="https://twitter.com/">
+                    <a class="hoverable" href=${this.getAttribute("twitter-x")}>
                         <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
                     </a>
-                    <a class="text-icon" href="https://github.com/curais">X</a>
+                    <a class="text-icon" href=${this.getAttribute("twitter-x")}>X</a>
                 </div>
             </div>
         </div>
